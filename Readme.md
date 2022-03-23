@@ -15,13 +15,16 @@ The script has the following optional arguments:
 | -p --platform-spend |  platform_spend.csv |  Name of the input file containing the platform spending information |
 
 For example, you could run the script with the following command:
+
 `py bill_calculator.py -o output.csv -c clients.csv -f fx_rates.csv -p platform_spend.csv`
 
 Or, just using the default arguments:
+
 `py bill_calculator.py`
 
 ## Tests
 You could run the project tests with:
+
 `py test.py`
 
 ## Sequence diagram
